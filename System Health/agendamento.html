@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="dash.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style1.css">
+
+
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+               <img src="images/2746578.png" alt="">
+            </div>
+  
+            <span class="logo_name">System Health</span>
+        </div>
+  
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="index.html">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Página Inicial</span>
+                </a></li>
+                <li><a href="perfil do paciente.html">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <span class="link-name">Perfil do paciente</span>
+                </a></li>
+                <li><a href="exames.html">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Exames</span>
+                </a></li>
+                <li><a href="consultas.html">
+                    <i class="uil uil-user-circle"></i>
+                    <span class="link-name">Consultas</span>
+                </a></li>
+                <li><a href="unidades.html">
+                <i class="fa-solid fa-hospital"></i>
+                <span class="link-name">Unidades</span>
+            </a></li>
+            <li><a href="agendamento.html">
+                <i class="fa-solid fa-calendar"></i>
+                <span class="link-name">agendamento</span>
+  
+            </a></li>
+            
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Sair</span>
+                </a></li>
+  
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Modo Escuro</span>
+                </a>
+  
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="dashboard">
+        <div class="top">
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+        </div>
+        <div class="container">
+            <form action="">
+                <div class="form first">
+                    <div class="details personal">
+                
+                            
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <span class="title">Informações do Agendamento</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Data do Agendamento</label>
+                                <input type="date" placeholder="Informe a data" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Hora do Agendamento</label>
+                                <input type="time" placeholder="Informe a hora do agendamento" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Endereço</label>
+                                <input type="text" placeholder="Digite seu endereço" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Status do agendamento</label>
+                                <select required>
+                                    <option disabled selected>Selecione</option>
+                                    <option>Reagendar</option>
+                                    <option>Agendado</option>
+                                    <option>Cancelado</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <label>Rua</label>
+                                <input type="text" placeholder="Informe o nome da sua rua" required>
+                            </div>
+                            <div class="input-field">
+                                <label>Cidade</label>
+                                <input type="text" placeholder="Informe a cidade" required>
+                            </div>
+                    </div>
+                </div>
+                <button class="sumbit">
+                    <span class="btnText">AVANÇAR</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+        </div>
+        </div>
+        </div>
+        </form>
+        </div>
+<script src="dash.js"></script>
+</body>
+</html>
